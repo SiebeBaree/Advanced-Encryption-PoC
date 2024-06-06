@@ -1,0 +1,18 @@
+{
+    "name": "group-encryption",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "private-key": "node privateKeyGen.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "tweetnacl": "^1.0.3",
+        "tweetnacl-util": "^0.15.1"
+    }
+}
